@@ -1,0 +1,5 @@
+workspace {
+  uid = "59f1baf1-55d6-4196-88fa-194b3b3dafef"
+  name = "Zendesk"
+  staleStateThresholdMinutes = undefined
+}
