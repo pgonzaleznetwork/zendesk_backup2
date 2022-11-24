@@ -1,0 +1,18 @@
+zendesk.user_segment missingUserSegment2 {
+  user_type = "staff"
+  group_ids = [
+    zendesk.group.instance.missing_9293044402323,
+  ]
+  tags = [
+    zendesk.tag.instance.alltag,
+  ]
+  or_tags = [
+    zendesk.tag.instance.anytag,
+  ]
+  built_in = false
+  added_user_ids = [
+    1534261811541,
+    1534261810061,
+  ]
+  name = "missingUserSegment2"
+}

@@ -1,0 +1,6 @@
+zendesk.section_order Salto_Test2__ {
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.Salto_Test2,
+  ]
+}

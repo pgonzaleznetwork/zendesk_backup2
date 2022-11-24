@@ -1,0 +1,9 @@
+zendesk.category_order BrandBForGuide__ {
+  categories = [
+    zendesk.category.instance.BrandBForGuide_General,
+  ]
+  brand = zendesk.brand.instance.BrandBForGuide
+  _parent = [
+    zendesk.brand.instance.BrandBForGuide,
+  ]
+}

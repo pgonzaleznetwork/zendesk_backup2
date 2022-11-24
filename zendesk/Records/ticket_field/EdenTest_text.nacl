@@ -1,0 +1,14 @@
+zendesk.ticket_field EdenTest_text {
+  type = "text"
+  raw_title = "EdenTest"
+  raw_description = "bla"
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.test }}} {{${ zendesk.dynamic_content_item.instance.missing_notExist }}} bb{{${ zendesk.dynamic_content_item.instance.test }}}cc"
+  visible_in_portal = true
+  editable_in_portal = true
+  required_in_portal = false
+  removable = true
+  agent_description = "des123456789"
+}

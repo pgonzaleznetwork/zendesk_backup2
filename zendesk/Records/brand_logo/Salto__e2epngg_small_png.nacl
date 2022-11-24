@@ -1,0 +1,8 @@
+zendesk.brand_logo Salto__e2epngg_small_png@uuuv {
+  filename = "e2epngg_small.png"
+  contentType = "image/png"
+  content = file("zendesk/brand_logo/Salto__e2epngg_small.png")
+  _parent = [
+    zendesk.brand.instance.Salto,
+  ]
+}

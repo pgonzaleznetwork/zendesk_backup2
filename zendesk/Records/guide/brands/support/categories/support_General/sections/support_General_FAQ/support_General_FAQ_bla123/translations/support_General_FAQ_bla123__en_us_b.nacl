@@ -1,0 +1,14 @@
+zendesk.section_translation support_General_FAQ_bla123__en_us_b@uuuuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "bla123"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "neta.marcus@salto.io"
+  created_by_id = "neta.marcus@salto.io"
+  brand = zendesk.brand.instance.support
+  guide_translation = zendesk.guide_language_settings.instance.support_en_us@ub
+  _parent = [
+    zendesk.section.instance.support_General_FAQ_bla123,
+  ]
+}

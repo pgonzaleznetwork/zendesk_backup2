@@ -1,0 +1,10 @@
+zendesk.support_address BrandBForGuide {
+  brand_id = zendesk.brand.instance.BrandBForGuide
+  default = true
+  name = "BrandBForGuide"
+  email = "support@brandbforguide.zendesk.com"
+  forwarding_status = "verified"
+  spf_status = "verified"
+  cname_status = "verified"
+  domain_verification_status = "verified"
+}

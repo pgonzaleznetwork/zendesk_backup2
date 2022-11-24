@@ -1,0 +1,19 @@
+zendesk.article Salto_Development_Apex_How_is_apex_different_to_Java_@uuusssssa {
+  author_id = "pablo.gonzalez@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Salto_Development_Apex
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Salesforce_Developers@s
+  permission_group_id = zendesk.permission_group.instance.Salesforce_Users@s
+  label_names = [
+    "noam",
+  ]
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.article_translation.instance.Salto_Development_Apex_How_is_apex_different_to_Java__uuusssssa__en_us_b@uuuuuuuuumuuum,
+  ]
+}

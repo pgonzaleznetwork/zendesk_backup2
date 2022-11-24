@@ -1,0 +1,8 @@
+zendesk.organization_field edentest {
+  type = "integer"
+  key = "edentest"
+  raw_title = "EdenTest2"
+  raw_description = "description 2"
+  active = true
+  system = false
+}

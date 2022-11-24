@@ -1,0 +1,16 @@
+zendesk.category_order Salto__ {
+  categories = [
+    zendesk.category.instance.Salto_test3,
+    zendesk.category.instance.Salto_neta_test@ub,
+    zendesk.category.instance.Salto_test__eden@ubs,
+    zendesk.category.instance.Salto_Test2,
+    zendesk.category.instance.Salto_Specific,
+    zendesk.category.instance.Salto_Development,
+    zendesk.category.instance.Salto_General,
+    zendesk.category.instance.Salto_Test,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.brand.instance.Salto,
+  ]
+}

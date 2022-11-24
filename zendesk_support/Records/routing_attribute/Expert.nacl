@@ -1,7 +1,0 @@
-zendesk_support.routing_attribute Expert {
-  name = "Expert"
-  values = [
-    zendesk_support.routing_attribute_value.instance.Expert__brokenSkill,
-    zendesk_support.routing_attribute_value.instance.Expert__Expert,
-  ]
-}

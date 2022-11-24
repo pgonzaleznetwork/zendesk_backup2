@@ -1,0 +1,8 @@
+zendesk.routing_attribute Test {
+  name = "Test"
+  values = [
+    zendesk.routing_attribute_value.instance.Test__missingSkill,
+    zendesk.routing_attribute_value.instance.Test__Test1,
+    zendesk.routing_attribute_value.instance.Test__Test2,
+  ]
+}

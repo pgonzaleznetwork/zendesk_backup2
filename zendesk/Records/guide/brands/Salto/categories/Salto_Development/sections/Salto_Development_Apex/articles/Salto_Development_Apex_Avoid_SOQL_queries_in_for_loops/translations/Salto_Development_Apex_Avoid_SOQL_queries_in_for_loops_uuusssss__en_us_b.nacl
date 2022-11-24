@@ -1,0 +1,19 @@
+zendesk.article_translation Salto_Development_Apex_Avoid_SOQL_queries_in_for_loops_uuusssss__en_us_b@uuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Avoid SOQL queries in for loops"
+  body = '''
+<p>You can execute a maximum of 100 SOQL queries per Apex transaction.</p>
+<p>To avoid hitting this limit, do not use SOQL queries inside for loops</p>
+<p> </p>
+'''
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "pablo.gonzalez@salto.io"
+  created_by_id = "pablo.gonzalez@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.article.instance.Salto_Development_Apex_Avoid_SOQL_queries_in_for_loops@uuusssss,
+  ]
+}

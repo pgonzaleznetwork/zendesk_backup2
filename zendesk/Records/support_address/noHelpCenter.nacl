@@ -1,0 +1,10 @@
+zendesk.support_address noHelpCenter {
+  brand_id = zendesk.brand.instance.noHelpCenter
+  default = true
+  name = "noHelpCenter"
+  email = "support@nohelpcentera.zendesk.com"
+  forwarding_status = "verified"
+  spf_status = "verified"
+  cname_status = "verified"
+  domain_verification_status = "verified"
+}

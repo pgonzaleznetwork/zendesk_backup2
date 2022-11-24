@@ -1,0 +1,5 @@
+zendesk.guide_language_settings anotherBrand___Eden_test_sbss_ar@uuuumu {
+  locale = "ar"
+  name = "check"
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+}

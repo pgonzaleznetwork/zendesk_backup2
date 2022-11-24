@@ -1,0 +1,12 @@
+zendesk.macro Noam__test@f {
+  title = "Noam::test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "pending"
+    },
+  ]
+  raw_title = "Noam::test"
+}

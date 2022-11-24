@@ -1,0 +1,18 @@
+zendesk.article_translation Salto_neta_test_ub_a1_uumu_Neta_test_111_uuuumuss__en_us_b@uuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Neta test 111"
+  body = '''
+<p>Terms and conditions go here</p><p> </p>
+
+'''
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "pablo.gonzalez@salto.io"
+  created_by_id = "neta.marcus@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.article.instance.Salto_neta_test_ub_a1_uumu_Neta_test_111@uuuumuss,
+  ]
+}

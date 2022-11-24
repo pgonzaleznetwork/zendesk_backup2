@@ -1,7 +1,0 @@
-zendesk_support.webhook Updated {
-  name = "Updated"
-  status = "active"
-  endpoint = "https://example.com/status/200"
-  http_method = "POST"
-  request_format = "json"
-}

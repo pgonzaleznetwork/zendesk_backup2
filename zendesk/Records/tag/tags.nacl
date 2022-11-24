@@ -1,0 +1,57 @@
+zendesk.tag alltag {
+  id = "alltag"
+}
+zendesk.tag anytag {
+  id = "anytag"
+}
+zendesk.tag bla {
+  id = "bla"
+}
+zendesk.tag customer_notified {
+  id = "customer_notified"
+}
+zendesk.tag ddd {
+  id = "ddd"
+}
+zendesk.tag eee {
+  id = "eee"
+}
+zendesk.tag escalated {
+  id = "escalated"
+}
+zendesk.tag missed_escalation_sla {
+  id = "missed_escalation_sla"
+}
+zendesk.tag option2 {
+  id = "option2"
+}
+zendesk.tag overdue {
+  id = "overdue"
+}
+zendesk.tag review_delete {
+  id = "review_delete"
+}
+zendesk.tag rrree {
+  id = "rrree"
+}
+zendesk.tag sf_developer@b {
+  id = "sf-developer"
+}
+zendesk.tag tagone {
+  id = "tagone"
+}
+zendesk.tag tagtwo {
+  id = "tagtwo"
+}
+zendesk.tag testcheckbox1 {
+  id = "testcheckbox1"
+}
+zendesk.tag value {
+  id = "value"
+}
+zendesk.tag wwwssee {
+  id = "wwwssee"
+}
+zendesk.tag yo {
+  id = "yo"
+}

@@ -1,0 +1,23 @@
+zendesk.article_translation Salto_General_Billing_and_Subscriptions_uuss_Updating_your_payment_method_uuuumusss__en_us_b@uuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Updating your payment method"
+  body = '''
+<p>To update your payment method:</p>
+<ul>
+<li>Click on My Profile</li>
+<li>Update Billing </li>
+<li>Make your desired changes</li>
+<li>Click Save</li>
+</ul>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "pablo.gonzalez@salto.io"
+  created_by_id = "pablo.gonzalez@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.article.instance.Salto_General_Billing_and_Subscriptions_uuss_Updating_your_payment_method@uuuumusss,
+  ]
+}

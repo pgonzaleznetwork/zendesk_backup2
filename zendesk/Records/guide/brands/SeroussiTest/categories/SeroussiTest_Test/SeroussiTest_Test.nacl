@@ -1,0 +1,10 @@
+zendesk.category SeroussiTest_Test {
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  brand = zendesk.brand.instance.SeroussiTest
+  translations = [
+    zendesk.category_translation.instance.SeroussiTest_Test__en_us_b@uuuum,
+  ]
+  sections = zendesk.section_order.instance.SeroussiTest_Test__
+}

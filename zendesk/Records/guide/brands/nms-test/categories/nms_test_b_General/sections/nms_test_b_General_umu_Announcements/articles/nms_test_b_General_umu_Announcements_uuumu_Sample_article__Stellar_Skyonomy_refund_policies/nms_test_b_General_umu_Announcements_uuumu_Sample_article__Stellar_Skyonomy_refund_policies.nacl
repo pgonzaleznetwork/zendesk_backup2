@@ -1,0 +1,16 @@
+zendesk.article nms_test_b_General_umu_Announcements_uuumu_Sample_article__Stellar_Skyonomy_refund_policies@uuuuumusfssss {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.nms_test_b_General_umu_Announcements@uuumu
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.nms_test@b
+  translations = [
+    zendesk.article_translation.instance.nms_test_b_General_umu_Announcements_uuumu_Sample_article__Stellar_Skyonomy_refund_policies_uuuuumusfssss__en_us_b@uuuuuuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

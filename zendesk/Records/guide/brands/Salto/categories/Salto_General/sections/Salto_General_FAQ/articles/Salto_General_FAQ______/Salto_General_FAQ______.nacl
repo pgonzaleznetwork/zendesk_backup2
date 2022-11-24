@@ -1,0 +1,19 @@
+zendesk.article Salto_General_FAQ______@uuu_01489_01491_01497_01511_01492 {
+  author_id = "zendesk-adapter@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.Salto_General_FAQ
+  source_locale = zendesk.guide_locale.instance.he
+  locale = zendesk.guide_locale.instance.he
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  label_names = [
+    "heb",
+  ]
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.article_translation.instance.Salto_General_FAQ_______uuu_01489_01491_01497_01511_01492__he@uuuuuuuumuuuuuuu,
+  ]
+}

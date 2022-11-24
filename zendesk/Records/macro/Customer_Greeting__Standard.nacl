@@ -1,0 +1,12 @@
+zendesk.macro Customer_Greeting__Standard@sff {
+  title = "Customer Greeting::Standard"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "open"
+    },
+  ]
+  raw_title = "Customer Greeting::Standard"
+}

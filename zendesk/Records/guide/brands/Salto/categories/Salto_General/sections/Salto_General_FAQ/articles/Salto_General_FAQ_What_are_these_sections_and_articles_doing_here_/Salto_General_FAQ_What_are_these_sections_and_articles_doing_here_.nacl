@@ -1,0 +1,16 @@
+zendesk.article Salto_General_FAQ_What_are_these_sections_and_articles_doing_here_@uuusssssssa {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Salto_General_FAQ
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.article_translation.instance.Salto_General_FAQ_What_are_these_sections_and_articles_doing_here__uuusssssssa__en_us_b@uuuuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

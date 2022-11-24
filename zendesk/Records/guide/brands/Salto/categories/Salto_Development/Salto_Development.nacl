@@ -1,0 +1,11 @@
+zendesk.category Salto_Development {
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.category_translation.instance.Salto_Development__es,
+    zendesk.category_translation.instance.Salto_Development__en_us_b@uuuum,
+  ]
+  sections = zendesk.section_order.instance.Salto_Development__
+}

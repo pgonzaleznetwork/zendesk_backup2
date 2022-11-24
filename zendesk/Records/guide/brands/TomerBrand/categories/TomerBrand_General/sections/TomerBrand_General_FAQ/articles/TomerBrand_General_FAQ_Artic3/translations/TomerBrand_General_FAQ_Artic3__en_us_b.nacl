@@ -1,0 +1,15 @@
+zendesk.article_translation TomerBrand_General_FAQ_Artic3__en_us_b@uuuuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Artic3"
+  body = "<p>bla.....</p>"
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.TomerBrand
+  guide_translation = zendesk.guide_language_settings.instance.TomerBrand_en_us@ub
+  _parent = [
+    zendesk.article.instance.TomerBrand_General_FAQ_Artic3,
+  ]
+}

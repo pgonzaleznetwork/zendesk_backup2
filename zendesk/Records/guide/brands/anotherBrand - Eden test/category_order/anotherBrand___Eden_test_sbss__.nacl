@@ -1,0 +1,12 @@
+zendesk.category_order anotherBrand___Eden_test_sbss__@uuuumuu {
+  categories = [
+    zendesk.category.instance.anotherBrand___Eden_test_sbss_test_validatorr@uuuumus,
+    zendesk.category.instance.anotherBrand___Eden_test_sbss_test3@uuuumu,
+    zendesk.category.instance.anotherBrand___Eden_test_sbss_test1_category@uuuumus,
+    zendesk.category.instance.anotherBrand___Eden_test_sbss_General@uuuumu,
+  ]
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  _parent = [
+    zendesk.brand.instance.anotherBrand___Eden_test@sbss,
+  ]
+}

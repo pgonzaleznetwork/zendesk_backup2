@@ -1,0 +1,115 @@
+zendesk.view Tier_1___All_Regions@ssbss {
+  title = "Tier 1 - All Regions"
+  active = true
+  default = false
+  execution = {
+    group_by = "status"
+    group_order = "desc"
+    sort_by = "priority"
+    sort_order = "desc"
+    group = {
+      id = "status"
+      title = "Status category"
+      filterable = true
+      sortable = true
+      order = "desc"
+    }
+    sort = {
+      id = "priority"
+      title = "Priority"
+      filterable = true
+      sortable = true
+      order = "desc"
+    }
+    columns = [
+      {
+        id = "satisfaction_score"
+        title = "Satisfaction"
+        filterable = true
+        sortable = true
+      },
+      {
+        id = "subject"
+        title = "Subject"
+        filterable = false
+        sortable = false
+      },
+      {
+        id = "requester"
+        title = "Requester"
+        filterable = true
+        sortable = true
+      },
+      {
+        id = "created"
+        title = "Requested"
+        filterable = false
+        sortable = true
+      },
+      {
+        id = "assignee"
+        title = "Assignee"
+        filterable = true
+        sortable = true
+      },
+    ]
+    fields = [
+      {
+        id = "satisfaction_score"
+        title = "Satisfaction"
+        filterable = true
+        sortable = true
+      },
+      {
+        id = "subject"
+        title = "Subject"
+        filterable = false
+        sortable = false
+      },
+      {
+        id = "requester"
+        title = "Requester"
+        filterable = true
+        sortable = true
+      },
+      {
+        id = "created"
+        title = "Requested"
+        filterable = false
+        sortable = true
+      },
+      {
+        id = "assignee"
+        title = "Assignee"
+        filterable = true
+        sortable = true
+      },
+    ]
+  }
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "less_than"
+        value = "solved"
+      },
+    ]
+    any = [
+      {
+        field = "group_id"
+        operator = "is"
+        value = zendesk.group.instance.Tier_1___AMER@ssbs
+      },
+      {
+        field = "group_id"
+        operator = "is"
+        value = zendesk.group.instance.Tier_1___EMEA@ssbs
+      },
+    ]
+  }
+  restriction = {
+    type = "User"
+    id = "pablo.gonzalez@salto.io"
+  }
+  raw_title = "Tier 1 - All Regions"
+}

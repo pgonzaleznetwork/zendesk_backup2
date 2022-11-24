@@ -1,0 +1,19 @@
+zendesk.article_translation Salto_General_Internal_KB_uus_Tier_3_Article_Template___Apex_uuumussssbs__en_us_b@uuuuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Tier 3 Article Template - Apex"
+  body = '''
+<p>Issue</p>
+<p>Steps to reproduce</p>
+<p>Resolution</p>
+'''
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "pablo.gonzalez@salto.io"
+  created_by_id = "pablo.gonzalez@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.article.instance.Salto_General_Internal_KB_uus_Tier_3_Article_Template___Apex@uuumussssbs,
+  ]
+}

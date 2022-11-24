@@ -1,0 +1,27 @@
+zendesk.article_translation nms_test_b_General_umu_FAQ_uuumu_How_do_I_publish_my_content_in_other_languages__uuuuumussssssssa__en_us_b@uuuuuuuuuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "How do I publish my content in other languages?"
+  body = '''
+<p>If you have <a href="https://support.zendesk.com/hc/en-us/articles/224857687" target="_blank">configured your Help Center to support multiple languages</a>, you can publish content in your supported languages. </p>
+
+<p>Here's the workflow for localizing your Help Center content into other languages:</p>
+
+<ol>
+<li>Get your content translated in the other languages.</li>
+<li>Configure the Help Center to support all your languages.</li>
+<li>Add the translated content to the Help Center.</li>
+</ol>
+
+
+<p>For complete instructions, see <a href="https://support.zendesk.com/hc/en-us/articles/203664336#topic_inn_3qy_43" target="_blank">Localizing the Help Center</a>.</p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  created_by_id = "gil.hoffer@salto.io"
+  brand = zendesk.brand.instance.nms_test@b
+  guide_translation = zendesk.guide_language_settings.instance.nms_test_b_en_us@umub
+  _parent = [
+    zendesk.article.instance.nms_test_b_General_umu_FAQ_uuumu_How_do_I_publish_my_content_in_other_languages_@uuuuumussssssssa,
+  ]
+}

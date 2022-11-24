@@ -1,0 +1,12 @@
+zendesk.section_translation nms_test_b_General_umu_FAQ_uuumu__en_us_b@uuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "FAQ"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.nms_test@b
+  guide_translation = zendesk.guide_language_settings.instance.nms_test_b_en_us@umub
+  _parent = [
+    zendesk.section.instance.nms_test_b_General_umu_FAQ@uuumu,
+  ]
+}

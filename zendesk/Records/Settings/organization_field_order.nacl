@@ -1,0 +1,15 @@
+zendesk.organization_field_order {
+  active = [
+    zendesk.organization_field.instance.age,
+    zendesk.organization_field.instance.another_drop_down,
+    zendesk.organization_field.instance.now,
+    zendesk.organization_field.instance.oftoremove,
+    zendesk.organization_field.instance.orgfielddel,
+    zendesk.organization_field.instance.edentest,
+    zendesk.organization_field.instance.edentest1,
+    zendesk.organization_field.instance.withmissingoption,
+    zendesk.organization_field.instance.neta_drop_down_123,
+  ]
+  inactive = [
+  ]
+}

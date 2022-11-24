@@ -1,0 +1,15 @@
+zendesk.section_translation Salto_test__eden_ubs_test2_uuumu__he@uuuuumuu {
+  locale = zendesk.guide_locale.instance.he
+  title = "בדיקה"
+  body = "לונידכד"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_he
+  _parent = [
+    zendesk.section.instance.Salto_test__eden_ubs_test2@uuumu,
+  ]
+}

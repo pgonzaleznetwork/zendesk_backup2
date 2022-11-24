@@ -1,0 +1,20 @@
+zendesk.article Salto_General_Internal_KB_uus_Tier_3_Article_Template___Apex@uuumussssbs {
+  author_id = "pablo.gonzalez@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.Salto_General_Internal_KB@uus
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  label_names = [
+    "KCTemplate",
+    "instructions",
+  ]
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.article_translation.instance.Salto_General_Internal_KB_uus_Tier_3_Article_Template___Apex_uuumussssbs__en_us_b@uuuuuuuuuuumuuum,
+  ]
+}

@@ -1,0 +1,10 @@
+zendesk.category Salto_test__eden@ubs {
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.category_translation.instance.Salto_test__eden_ubs__en_us_b@uuumuuum,
+  ]
+  sections = zendesk.section_order.instance.Salto_test__eden_ubs__@uuumuu
+}

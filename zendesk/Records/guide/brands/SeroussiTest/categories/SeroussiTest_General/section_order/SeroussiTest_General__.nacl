@@ -1,0 +1,10 @@
+zendesk.section_order SeroussiTest_General__ {
+  sections = [
+    zendesk.section.instance.SeroussiTest_General_FAQ,
+    zendesk.section.instance.SeroussiTest_General_Announcements,
+  ]
+  brand = zendesk.brand.instance.SeroussiTest
+  _parent = [
+    zendesk.category.instance.SeroussiTest_General,
+  ]
+}

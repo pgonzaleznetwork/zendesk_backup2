@@ -1,0 +1,14 @@
+zendesk.article_translation anotherBrand___Eden_test_sbss_test_validatorr_uuuumus_test_validatorr_uuuuuuumus_test_validator_uuuuuuuuuumus__en_us_b@uuuuuuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "test validator"
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  guide_translation = zendesk.guide_language_settings.instance.anotherBrand___Eden_test_sbss_en_us@uuuumub
+  _parent = [
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_test_validatorr_uuuumus_test_validatorr_uuuuuuumus_test_validator@uuuuuuuuuumus,
+  ]
+}

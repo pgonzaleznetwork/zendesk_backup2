@@ -1,0 +1,13 @@
+zendesk.section_order Salto_General__ {
+  sections = [
+    zendesk.section.instance.Salto_General_Billing_and_Subscriptions@uuss,
+    zendesk.section.instance.Salto_General_Internal_KB@uus,
+    zendesk.section.instance.Salto_General_FAQ,
+    zendesk.section.instance.Salto_General_Announcements,
+    zendesk.section.instance.Salto_General_edenTest234,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.Salto_General,
+  ]
+}

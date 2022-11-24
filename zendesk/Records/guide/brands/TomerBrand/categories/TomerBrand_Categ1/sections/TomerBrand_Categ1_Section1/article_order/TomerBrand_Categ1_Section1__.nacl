@@ -1,0 +1,9 @@
+zendesk.article_order TomerBrand_Categ1_Section1__ {
+  articles = [
+    zendesk.article.instance.TomerBrand_Categ1_Section1_Artic1,
+  ]
+  brand = zendesk.brand.instance.TomerBrand
+  _parent = [
+    zendesk.section.instance.TomerBrand_Categ1_Section1,
+  ]
+}

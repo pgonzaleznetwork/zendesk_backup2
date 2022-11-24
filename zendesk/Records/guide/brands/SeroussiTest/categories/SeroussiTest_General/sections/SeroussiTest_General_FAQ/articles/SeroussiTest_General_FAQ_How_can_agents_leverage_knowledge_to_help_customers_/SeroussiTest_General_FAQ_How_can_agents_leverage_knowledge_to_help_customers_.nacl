@@ -1,0 +1,16 @@
+zendesk.article SeroussiTest_General_FAQ_How_can_agents_leverage_knowledge_to_help_customers_@uuusssssssa {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.SeroussiTest_General_FAQ
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.SeroussiTest
+  translations = [
+    zendesk.article_translation.instance.SeroussiTest_General_FAQ_How_can_agents_leverage_knowledge_to_help_customers__uuusssssssa__en_us_b@uuuuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

@@ -1,0 +1,6 @@
+zendesk.section_order support_General_Announcements__ {
+  brand = zendesk.brand.instance.support
+  _parent = [
+    zendesk.section.instance.support_General_Announcements,
+  ]
+}

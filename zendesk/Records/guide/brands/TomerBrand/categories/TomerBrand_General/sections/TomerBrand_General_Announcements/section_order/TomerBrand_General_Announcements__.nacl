@@ -1,0 +1,6 @@
+zendesk.section_order TomerBrand_General_Announcements__ {
+  brand = zendesk.brand.instance.TomerBrand
+  _parent = [
+    zendesk.section.instance.TomerBrand_General_Announcements,
+  ]
+}

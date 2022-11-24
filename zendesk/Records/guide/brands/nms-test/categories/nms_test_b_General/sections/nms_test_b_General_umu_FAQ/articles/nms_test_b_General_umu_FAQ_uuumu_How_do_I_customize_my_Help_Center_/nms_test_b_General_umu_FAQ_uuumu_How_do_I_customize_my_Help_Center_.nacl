@@ -1,0 +1,24 @@
+zendesk.article nms_test_b_General_umu_FAQ_uuumu_How_do_I_customize_my_Help_Center_@uuuuumussssssa {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.nms_test_b_General_umu_FAQ@uuumu
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.VIP_Customers@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  content_tag_ids = [
+    "01GHERGNDHC3A3KRKHMJX28V40",
+    "01GHERGQQDFTB0YT8QP0D89SZW",
+  ]
+  label_names = [
+    "aaa",
+    "bbb",
+  ]
+  brand = zendesk.brand.instance.nms_test@b
+  translations = [
+    zendesk.article_translation.instance.nms_test_b_General_umu_FAQ_uuumu_How_do_I_customize_my_Help_Center__uuuuumussssssa__en_us_b@uuuuuuuuuuuuuumuuum,
+  ]
+}

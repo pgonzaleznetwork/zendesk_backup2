@@ -1,0 +1,7 @@
+zendesk.organization_field__custom_field_options edentest1__test {
+  raw_name = "testtestt"
+  value = "test"
+  _parent = [
+    zendesk.organization_field.instance.edentest1,
+  ]
+}

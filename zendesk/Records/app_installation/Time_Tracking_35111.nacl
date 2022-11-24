@@ -1,0 +1,23 @@
+zendesk.app_installation Time_Tracking_35111@su {
+  app_id = 35111
+  product = "support"
+  settings = {
+    display_timelogs = true
+    hide_from_agents = false
+    auto_pause_resume = true
+    manual_pause_resume = true
+    reset = true
+    resume_on_changes = false
+    time_submission = true
+    simple_submission = false
+    debug_prevent_huge_times = false
+    name = "Time Tracking"
+    title = "Time Tracking"
+  }
+  enabled = true
+  recurring_payment = false
+  collapsible = true
+  paid = false
+  has_unpaid_subscription = false
+  has_incomplete_subscription = false
+}

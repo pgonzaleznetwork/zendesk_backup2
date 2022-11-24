@@ -1,0 +1,16 @@
+zendesk.article TomerBrand_General_Announcements_Sample_article__Stellar_Skyonomy_refund_policies@uuusfssss {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.TomerBrand_General_Announcements
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.TomerBrand
+  translations = [
+    zendesk.article_translation.instance.TomerBrand_General_Announcements_Sample_article__Stellar_Skyonomy_refund_policies_uuusfssss__en_us_b@uuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

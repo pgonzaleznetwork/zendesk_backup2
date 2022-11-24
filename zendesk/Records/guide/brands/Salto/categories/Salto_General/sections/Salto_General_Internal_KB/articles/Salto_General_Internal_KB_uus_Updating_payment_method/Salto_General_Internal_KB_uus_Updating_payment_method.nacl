@@ -1,0 +1,16 @@
+zendesk.article Salto_General_Internal_KB_uus_Updating_payment_method@uuumuss {
+  author_id = "pablo.gonzalez@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Salto_General_Internal_KB@uus
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.article_translation.instance.Salto_General_Internal_KB_uus_Updating_payment_method_uuumuss__en_us_b@uuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

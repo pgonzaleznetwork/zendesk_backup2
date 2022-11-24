@@ -1,0 +1,14 @@
+zendesk.category_translation Salto_Specific__he {
+  locale = zendesk.guide_locale.instance.he
+  title = "Specificc"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_he
+  _parent = [
+    zendesk.category.instance.Salto_Specific,
+  ]
+}

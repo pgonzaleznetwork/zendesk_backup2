@@ -1,0 +1,15 @@
+zendesk.category_translation TomerBrand_Categ1__en_us_b@uuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Categ1"
+  body = "aaa bbb"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.TomerBrand
+  guide_translation = zendesk.guide_language_settings.instance.TomerBrand_en_us@ub
+  _parent = [
+    zendesk.category.instance.TomerBrand_Categ1,
+  ]
+}

@@ -1,0 +1,6 @@
+zendesk.article_order anotherBrand___Eden_test_sbss_test3_uuuumu_test3_section_uuuuuumus__@uuuuuuuuumuu {
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  _parent = [
+    zendesk.section.instance.anotherBrand___Eden_test_sbss_test3_uuuumu_test3_section@uuuuuumus,
+  ]
+}

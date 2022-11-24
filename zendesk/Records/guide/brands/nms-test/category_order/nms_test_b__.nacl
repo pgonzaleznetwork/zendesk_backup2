@@ -1,0 +1,9 @@
+zendesk.category_order nms_test_b__@umuu {
+  categories = [
+    zendesk.category.instance.nms_test_b_General@umu,
+  ]
+  brand = zendesk.brand.instance.nms_test@b
+  _parent = [
+    zendesk.brand.instance.nms_test@b,
+  ]
+}

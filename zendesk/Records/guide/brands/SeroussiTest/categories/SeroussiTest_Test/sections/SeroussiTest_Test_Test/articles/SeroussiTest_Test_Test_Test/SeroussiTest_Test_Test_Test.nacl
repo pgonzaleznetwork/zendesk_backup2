@@ -1,0 +1,17 @@
+zendesk.article SeroussiTest_Test_Test_Test {
+  author_id = "zendesk-adapter@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.SeroussiTest_Test_Test
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.SeroussiTest
+  translations = [
+    zendesk.article_translation.instance.SeroussiTest_Test_Test_Test__he_il@uuuuub,
+    zendesk.article_translation.instance.SeroussiTest_Test_Test_Test__en_us_b@uuuuuum,
+  ]
+}

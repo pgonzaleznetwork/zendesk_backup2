@@ -1,0 +1,15 @@
+zendesk.section_translation anotherBrand___Eden_test_sbss_test1_category_uuuumus_test1_section_uuuuuuumus__en_us_b@uuuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "test1 section"
+  body = "one section"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  guide_translation = zendesk.guide_language_settings.instance.anotherBrand___Eden_test_sbss_en_us@uuuumub
+  _parent = [
+    zendesk.section.instance.anotherBrand___Eden_test_sbss_test1_category_uuuumus_test1_section@uuuuuuumus,
+  ]
+}

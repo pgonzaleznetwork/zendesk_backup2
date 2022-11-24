@@ -1,0 +1,4 @@
+zendesk.guide_locale he {
+  id = "he"
+  default = false
+}

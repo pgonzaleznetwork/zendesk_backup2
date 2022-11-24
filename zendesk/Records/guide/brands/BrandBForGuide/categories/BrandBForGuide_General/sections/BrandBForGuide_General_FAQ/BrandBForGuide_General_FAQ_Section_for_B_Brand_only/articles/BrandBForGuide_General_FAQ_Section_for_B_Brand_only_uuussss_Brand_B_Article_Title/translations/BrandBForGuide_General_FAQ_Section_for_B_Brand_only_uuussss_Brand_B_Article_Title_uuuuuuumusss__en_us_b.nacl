@@ -1,0 +1,15 @@
+zendesk.article_translation BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss_Brand_B_Article_Title_uuuuuuumusss__en_us_b@uuuuuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Brand B Article Title"
+  body = "<p>This is Brand B article paragraph</p>"
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "pablo.gonzalez@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.BrandBForGuide
+  guide_translation = zendesk.guide_language_settings.instance.BrandBForGuide_en_us@ub
+  _parent = [
+    zendesk.article.instance.BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss_Brand_B_Article_Title@uuuuuuumusss,
+  ]
+}

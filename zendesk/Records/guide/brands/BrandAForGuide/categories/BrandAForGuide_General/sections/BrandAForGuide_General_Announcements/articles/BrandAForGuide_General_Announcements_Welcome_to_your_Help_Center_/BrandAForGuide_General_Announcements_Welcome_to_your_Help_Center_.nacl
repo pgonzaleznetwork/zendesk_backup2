@@ -1,0 +1,16 @@
+zendesk.article BrandAForGuide_General_Announcements_Welcome_to_your_Help_Center_@uuussssl {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.BrandAForGuide_General_Announcements
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.BrandAForGuide
+  translations = [
+    zendesk.article_translation.instance.BrandAForGuide_General_Announcements_Welcome_to_your_Help_Center__uuussssl__en_us_b@uuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

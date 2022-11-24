@@ -1,0 +1,21 @@
+zendesk.article_translation nms_test_b_General_umu_FAQ_uuumu_How_do_I_customize_my_Help_Center__uuuuumussssssa__en_us_b@uuuuuuuuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "How do I customize my Help Center?"
+  body = '''
+<p>You can modify the look and feel of your Help Center by changing colors and fonts. See <a href="https://support.zendesk.com/hc/en-us/articles/206177737" target="_blank" rel="noopener noreferrer">Branding your Help Center</a> to learn how.</p>
+<p>You can also change the design of your Help Center. If you're comfortable working with page code, you can dig in to the site's HTML, CSS, and Javascript to customize your theme. To get started, see <a href="https://support.zendesk.com/hc/en-us/articles/203664326" target="_blank" rel="noopener noreferrer">Customizing the Help Center</a>.</p>
+<p> </p>
+<p>Modified</p>
+<p><a href="${ zendesk.brand.instance.nms_test@b.brand_url }/hc/en-us/articles/${ zendesk.article.instance.nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu_Welcome_to_your_Help_Center_@uuuuuuumussssl }" target="_self">bla</a></p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "neta.marcus@salto.io"
+  created_by_id = "gil.hoffer@salto.io"
+  brand = zendesk.brand.instance.nms_test@b
+  guide_translation = zendesk.guide_language_settings.instance.nms_test_b_en_us@umub
+  _parent = [
+    zendesk.article.instance.nms_test_b_General_umu_FAQ_uuumu_How_do_I_customize_my_Help_Center_@uuuuumussssssa,
+  ]
+}

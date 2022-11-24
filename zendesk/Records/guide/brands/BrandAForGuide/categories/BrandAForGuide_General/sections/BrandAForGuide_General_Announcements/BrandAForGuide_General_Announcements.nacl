@@ -1,0 +1,14 @@
+zendesk.section BrandAForGuide_General_Announcements {
+  category_id = zendesk.category.instance.BrandAForGuide_General
+  sorting = "manual"
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  theme_template = "section_page"
+  brand = zendesk.brand.instance.BrandAForGuide
+  translations = [
+    zendesk.section_translation.instance.BrandAForGuide_General_Announcements__en_us_b@uuuuum,
+  ]
+  sections = zendesk.section_order.instance.BrandAForGuide_General_Announcements__
+  articles = zendesk.article_order.instance.BrandAForGuide_General_Announcements__
+}

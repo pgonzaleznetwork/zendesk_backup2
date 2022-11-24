@@ -1,0 +1,10 @@
+zendesk.category_order SeroussiTest__ {
+  categories = [
+    zendesk.category.instance.SeroussiTest_Test,
+    zendesk.category.instance.SeroussiTest_General,
+  ]
+  brand = zendesk.brand.instance.SeroussiTest
+  _parent = [
+    zendesk.brand.instance.SeroussiTest,
+  ]
+}

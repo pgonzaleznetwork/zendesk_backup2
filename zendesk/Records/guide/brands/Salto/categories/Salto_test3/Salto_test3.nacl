@@ -1,0 +1,11 @@
+zendesk.category Salto_test3 {
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.category_translation.instance.Salto_test3__he,
+    zendesk.category_translation.instance.Salto_test3__en_us_b@uuuum,
+  ]
+  sections = zendesk.section_order.instance.Salto_test3__
+}

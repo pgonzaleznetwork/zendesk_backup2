@@ -1,0 +1,9 @@
+zendesk.section_order Salto_Development__ {
+  sections = [
+    zendesk.section.instance.Salto_Development_Apex,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.Salto_Development,
+  ]
+}

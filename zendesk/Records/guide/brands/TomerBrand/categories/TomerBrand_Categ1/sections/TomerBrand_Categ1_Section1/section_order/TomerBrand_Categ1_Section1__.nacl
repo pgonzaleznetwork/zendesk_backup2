@@ -1,0 +1,6 @@
+zendesk.section_order TomerBrand_Categ1_Section1__ {
+  brand = zendesk.brand.instance.TomerBrand
+  _parent = [
+    zendesk.section.instance.TomerBrand_Categ1_Section1,
+  ]
+}

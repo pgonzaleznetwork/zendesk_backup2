@@ -1,0 +1,117 @@
+zendesk.routing_attribute_value Test__missingSkill {
+  name = "missingSkill"
+  conditions = {
+    all = [
+      {
+        subject = "number_of_incidents"
+        operator = "less_than_equal"
+        value = "2"
+      },
+      {
+        subject = "ticket_form_id"
+        operator = "is"
+        value = zendesk.ticket_form.instance.missing_9065237163795
+      },
+      {
+        subject = "type"
+        operator = "is"
+        value = "problem"
+      },
+      {
+        subject = "brand_id"
+        operator = "is"
+        value = zendesk.brand.instance.missing_9271600033939
+      },
+    ]
+    any = [
+      {
+        subject = "priority"
+        operator = "is"
+        value = "normal"
+      },
+      {
+        subject = "requester_id"
+        operator = "is"
+        value = "la+84@example.org"
+      },
+      {
+        subject = "organization_id"
+        operator = "is"
+        value = "6121368811283"
+      },
+      {
+        subject = "via_id"
+        operator = "is"
+        value = zendesk.channel.instance.Twitter_Direct_Message@s
+      },
+      {
+        subject = "current_via_id"
+        operator = "is"
+        value = zendesk.channel.instance.LINE
+      },
+      {
+        subject = "recipient"
+        operator = "is"
+        value = "support@d3v-salto2.zendesk.com"
+      },
+      {
+        subject = "subject_includes_word"
+        operator = "includes"
+        value = "yygg"
+      },
+      {
+        subject = "ticket_is_public"
+        operator = "is"
+        value = "public"
+      },
+      {
+        subject = "comment_is_public"
+        operator = "is"
+        value = "not_relevant"
+      },
+      {
+        subject = "comment_includes_word"
+        operator = "includes"
+        value = "jkhjjjk"
+      },
+      {
+        subject = "requester_role"
+        operator = "is"
+        value = "0"
+      },
+      {
+        subject = "locale_id"
+        operator = "is"
+        value = zendesk.locale.instance.missing_1194
+      },
+      {
+        subject = "requester_time_zone"
+        operator = "is"
+        value = "International Date Line West"
+      },
+      {
+        subject = "custom_fields_9271729938579"
+        operator = "is"
+        value = "9271745411603"
+      },
+      {
+        subject = zendesk.ticket_field.instance.ToRemove2_date
+        operator = "is"
+        value = "2022-09-23"
+      },
+      {
+        subject = zendesk.organization_field.instance.now
+        operator = "is"
+        value = "2022-09-07"
+      },
+      {
+        subject = zendesk.ticket_field.instance.missingskill2_tagger
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.missing_9271749180435
+      },
+    ]
+  }
+  _parent = [
+    zendesk.routing_attribute.instance.Test,
+  ]
+}

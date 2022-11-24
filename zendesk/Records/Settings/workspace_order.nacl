@@ -1,0 +1,10 @@
+zendesk.workspace_order {
+  active = [
+    zendesk.workspace.instance.Noam_Crazy_workspace@s,
+    zendesk.workspace.instance.My_WS@s,
+    zendesk.workspace.instance.Missing_Refs_WS@s,
+    zendesk.workspace.instance.customStatuses,
+  ]
+  inactive = [
+  ]
+}

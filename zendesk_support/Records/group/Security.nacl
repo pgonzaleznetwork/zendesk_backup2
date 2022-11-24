@@ -1,7 +1,0 @@
-zendesk_support.group Security {
-  is_public = true
-  name = "Security"
-  description = ""
-  default = false
-  deleted = false
-}

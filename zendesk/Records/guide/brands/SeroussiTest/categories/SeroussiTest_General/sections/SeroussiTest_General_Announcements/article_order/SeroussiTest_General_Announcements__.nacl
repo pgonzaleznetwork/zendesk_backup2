@@ -1,0 +1,10 @@
+zendesk.article_order SeroussiTest_General_Announcements__ {
+  articles = [
+    zendesk.article.instance.SeroussiTest_General_Announcements_Welcome_to_your_Help_Center_@uuussssl,
+    zendesk.article.instance.SeroussiTest_General_Announcements_Sample_article__Stellar_Skyonomy_refund_policies@uuusfssss,
+  ]
+  brand = zendesk.brand.instance.SeroussiTest
+  _parent = [
+    zendesk.section.instance.SeroussiTest_General_Announcements,
+  ]
+}

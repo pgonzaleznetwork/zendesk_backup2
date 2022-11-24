@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options OferField_tagger__value1111 {
+  name = "value1111"
+  raw_name = "value1111"
+  value = "value1111"
+  _parent = [
+    zendesk.ticket_field.instance.OferField_tagger,
+  ]
+}

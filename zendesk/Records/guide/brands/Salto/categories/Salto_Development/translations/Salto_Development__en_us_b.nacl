@@ -1,0 +1,15 @@
+zendesk.category_translation Salto_Development__en_us_b@uuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Development"
+  body = "Apex, Visualforce, LWCs, APIs, etc"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "pablo.gonzalez@salto.io"
+  created_by_id = "pablo.gonzalez@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.category.instance.Salto_Development,
+  ]
+}

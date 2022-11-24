@@ -1,0 +1,16 @@
+zendesk.article Salto_neta_test_ub_a1_uumu_b1_uuuumu_NTest@uuuuuumu {
+  author_id = "neta.marcus@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.Salto_neta_test_ub_a1_uumu_b1@uuuumu
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.Salto
+  translations = [
+    zendesk.article_translation.instance.Salto_neta_test_ub_a1_uumu_b1_uuuumu_NTest_uuuuuumu__en_us_b@uuuuuuuumuuum,
+  ]
+}

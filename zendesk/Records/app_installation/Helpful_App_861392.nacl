@@ -1,0 +1,12 @@
+zendesk.app_installation Helpful_App_861392@su {
+  app_id = 861392
+  product = "support"
+  settings = {
+    name = "Helpful App"
+    title = "Helpful App"
+  }
+  enabled = true
+  recurring_payment = false
+  collapsible = true
+  has_incomplete_subscription = false
+}

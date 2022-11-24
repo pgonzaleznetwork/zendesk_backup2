@@ -1,0 +1,12 @@
+zendesk.article_order SeroussiTest_General_FAQ__ {
+  articles = [
+    zendesk.article.instance.SeroussiTest_General_FAQ_How_can_agents_leverage_knowledge_to_help_customers_@uuusssssssa,
+    zendesk.article.instance.SeroussiTest_General_FAQ_How_do_I_publish_my_content_in_other_languages_@uuussssssssa,
+    zendesk.article.instance.SeroussiTest_General_FAQ_How_do_I_customize_my_Help_Center_@uuussssssa,
+    zendesk.article.instance.SeroussiTest_General_FAQ_What_are_these_sections_and_articles_doing_here_@uuusssssssa,
+  ]
+  brand = zendesk.brand.instance.SeroussiTest
+  _parent = [
+    zendesk.section.instance.SeroussiTest_General_FAQ,
+  ]
+}

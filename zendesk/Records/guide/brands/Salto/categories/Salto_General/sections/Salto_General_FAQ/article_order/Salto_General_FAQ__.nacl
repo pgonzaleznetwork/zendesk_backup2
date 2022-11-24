@@ -1,0 +1,13 @@
+zendesk.article_order Salto_General_FAQ__ {
+  articles = [
+    zendesk.article.instance.Salto_General_FAQ______@uuu_01489_01491_01497_01511_01492,
+    zendesk.article.instance.Salto_General_FAQ_How_can_agents_leverage_knowledge_to_help_customers_@uuusssssssa,
+    zendesk.article.instance.Salto_General_FAQ_How_do_I_publish_my_content_in_other_languages_@uuussssssssa,
+    zendesk.article.instance.Salto_General_FAQ_How_do_I_customize_my_Help_Center_@uuussssssa,
+    zendesk.article.instance.Salto_General_FAQ_What_are_these_sections_and_articles_doing_here_@uuusssssssa,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Salto_General_FAQ,
+  ]
+}

@@ -1,7 +1,0 @@
-zendesk_support.group Triage {
-  is_public = true
-  name = "Triage"
-  description = "Tickets are assessed and routed to the correct group."
-  default = false
-  deleted = false
-}

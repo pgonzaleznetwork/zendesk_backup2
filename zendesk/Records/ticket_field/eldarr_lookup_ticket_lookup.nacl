@@ -1,0 +1,74 @@
+zendesk.ticket_field eldarr_lookup_ticket_lookup {
+  type = "lookup"
+  raw_title = "eldarr_lookup_ticket"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "eldarr_lookup_ticket"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  agent_description = "eldarr_lookup_ticket_description"
+  relationship_target_type = "zen:ticket"
+  relationship_filter = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "solved"
+      },
+      {
+        field = "brand_id"
+        operator = "is_not"
+        value = zendesk.brand.instance.Salto
+      },
+      {
+        field = "ticket_form_id"
+        operator = "is"
+        value = zendesk.ticket_form.instance.Other
+      },
+      {
+        field = "type"
+        operator = "is"
+        value = "problem"
+      },
+      {
+        field = "priority"
+        operator = "less_than"
+        value = "normal"
+      },
+      {
+        field = "assignee_id"
+        operator = "is_not"
+        value = "1529421230621"
+      },
+      {
+        field = "requester_id"
+        operator = "is"
+        value = "1534261810821"
+      },
+      {
+        field = "organization_id"
+        operator = "is"
+        value = "6121365856659"
+      },
+      {
+        field = "current_tags"
+        operator = "not_present"
+        value = ""
+      },
+      {
+        field = "via_id"
+        operator = "is"
+        value = zendesk.channel.instance.CTI_voicemail@s
+      },
+      {
+        field = zendesk.ticket_field.instance.TestDecimal2_decimal
+        operator = "greater_than"
+        value = "123"
+      },
+    ]
+  }
+}

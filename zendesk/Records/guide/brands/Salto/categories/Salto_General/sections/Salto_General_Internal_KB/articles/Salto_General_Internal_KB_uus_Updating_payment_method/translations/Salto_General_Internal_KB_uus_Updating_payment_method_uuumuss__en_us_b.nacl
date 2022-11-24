@@ -1,0 +1,15 @@
+zendesk.article_translation Salto_General_Internal_KB_uus_Updating_payment_method_uuumuss__en_us_b@uuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "Updating payment method"
+  body = "<p>Customers are able to update their payment method within their personal area</p>"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "pablo.gonzalez@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.article.instance.Salto_General_Internal_KB_uus_Updating_payment_method@uuumuss,
+  ]
+}

@@ -1,0 +1,5 @@
+zendesk.guide_language_settings Salto_es {
+  locale = "es"
+  name = "Centro de Ayuda"
+  brand = zendesk.brand.instance.Salto
+}

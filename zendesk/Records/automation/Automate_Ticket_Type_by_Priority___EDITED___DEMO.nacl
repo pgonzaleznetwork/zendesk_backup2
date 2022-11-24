@@ -1,0 +1,31 @@
+zendesk.automation Automate_Ticket_Type_by_Priority___EDITED___DEMO@sssssbssbs {
+  title = "Automate Ticket Type by Priority - EDITED - DEMO"
+  active = false
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.Customer_Priority_tagger@su
+      value = zendesk.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__medium@uumuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.Customer_Priority_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
+      },
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+      {
+        field = zendesk.ticket_field.instance.Support_Level_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.Support_Level_tagger_su__signature_support@uumuuu
+      },
+    ]
+  }
+  raw_title = "Automate Ticket Type by Priority - EDITED - DEMO"
+}

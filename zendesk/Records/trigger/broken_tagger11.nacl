@@ -1,0 +1,49 @@
+zendesk.trigger broken_tagger11@b {
+  title = "broken-tagger11"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.missing_01GB7WWYD3QM8G7BWTR7A28XWR,
+        [
+          [
+            "asasddsa",
+            "sdsd",
+          ],
+        ],
+      ]
+    },
+    {
+      field = "notification_target"
+      value = [
+        zendesk.target.instance.missing_8937398017683,
+        "asdgfgg 123",
+      ]
+    },
+    {
+      field = "ticket_form_id"
+      value = zendesk.ticket_form.instance.missing_8966605798419
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.user_field.instance.userfielddel
+        operator = "is"
+        value = zendesk.user_field__custom_field_options.instance.userfielddel__value4
+      },
+    ]
+    any = [
+      {
+        field = "ticket_form_id"
+        operator = "is_not"
+        value = zendesk.ticket_form.instance.missing_8966605798419
+      },
+    ]
+  }
+  description = "tagger11 will delete its option"
+  raw_title = "broken-tagger11"
+  category_id = zendesk.trigger_category.instance.Other
+}

@@ -1,0 +1,8 @@
+zendesk.sla_policy_order {
+  active = [
+    zendesk.sla_policy.instance.TomerTest2,
+    zendesk.sla_policy.instance.Demo,
+    zendesk.sla_policy.instance.SLAToDelete,
+    zendesk.sla_policy.instance.Premier_Priority@s,
+  ]
+}

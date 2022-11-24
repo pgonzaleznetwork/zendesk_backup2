@@ -1,0 +1,23 @@
+zendesk.trigger EdenTest_name@s {
+  title = "EdenTest name"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "ticket_form_id"
+      value = zendesk.ticket_form.instance.EdenForm12
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+    ]
+  }
+  description = "check"
+  raw_title = "EdenTest name"
+  category_id = zendesk.trigger_category.instance.Billing
+}

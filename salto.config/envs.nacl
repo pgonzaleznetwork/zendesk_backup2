@@ -1,9 +1,9 @@
 envs {
   envs = [
     {
-      name = "zendesk_prod"
+      name = "prod"
       accountToServiceName = {
-        zendesk_support = "zendesk_support"
+        zendesk = "zendesk"
       }
     },
   ]

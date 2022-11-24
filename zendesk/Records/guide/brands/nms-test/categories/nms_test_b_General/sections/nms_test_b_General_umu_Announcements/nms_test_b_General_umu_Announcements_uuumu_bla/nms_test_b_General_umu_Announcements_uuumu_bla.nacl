@@ -1,0 +1,15 @@
+zendesk.section nms_test_b_General_umu_Announcements_uuumu_bla@uuuuumu {
+  category_id = zendesk.category.instance.nms_test_b_General@umu
+  sorting = "manual"
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  parent_section_id = zendesk.section.instance.nms_test_b_General_umu_Announcements@uuumu
+  theme_template = "section_page"
+  brand = zendesk.brand.instance.nms_test@b
+  translations = [
+    zendesk.section_translation.instance.nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu__en_us_b@uuuuuuumuuum,
+  ]
+  sections = zendesk.section_order.instance.nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu__@uuuuuuumuu
+  articles = zendesk.article_order.instance.nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu__@uuuuuuumuu
+}

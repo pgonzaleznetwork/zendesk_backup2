@@ -1,0 +1,9 @@
+zendesk.article_order BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss__@uuuuuuumuu {
+  articles = [
+    zendesk.article.instance.BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss_Brand_B_Article_Title@uuuuuuumusss,
+  ]
+  brand = zendesk.brand.instance.BrandBForGuide
+  _parent = [
+    zendesk.section.instance.BrandBForGuide_General_FAQ_Section_for_B_Brand_only@uuussss,
+  ]
+}

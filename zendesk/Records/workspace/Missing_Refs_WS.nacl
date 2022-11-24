@@ -1,0 +1,39 @@
+zendesk.workspace Missing_Refs_WS@s {
+  title = "Missing Refs WS"
+  description = "missing workspace with references"
+  ticket_form_id = zendesk.ticket_form.instance.missing_9064770688019
+  apps = [
+    {
+      id = zendesk.app_installation.instance.Time_Tracking_35111@su
+      expand = false
+      position = 2
+    },
+    {
+      id = zendesk.app_installation.instance.Knowledge_Capture_111872@su
+      expand = false
+      position = 3
+    },
+  ]
+  activated = true
+  conditions = {
+    all = [
+      {
+        field = "satisfaction_reason_code"
+        operator = "is"
+        value = "6"
+      },
+      {
+        field = "group_id"
+        operator = "is"
+        value = zendesk.group.instance.missing_9064741202195
+      },
+    ]
+    any = [
+      {
+        field = "ticket_form_id"
+        operator = "is"
+        value = zendesk.ticket_form.instance.missing_9064788735251
+      },
+    ]
+  }
+}

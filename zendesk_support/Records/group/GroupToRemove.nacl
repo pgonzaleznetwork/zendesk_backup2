@@ -1,7 +1,0 @@
-zendesk_support.group GroupToRemove {
-  is_public = true
-  name = "GroupToRemove"
-  description = "To remove - edited"
-  default = false
-  deleted = false
-}

@@ -1,0 +1,6 @@
+zendesk.section_order Salto_General_Billing_and_Subscriptions_uuss__@uuuumuu {
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Salto_General_Billing_and_Subscriptions@uuss,
+  ]
+}

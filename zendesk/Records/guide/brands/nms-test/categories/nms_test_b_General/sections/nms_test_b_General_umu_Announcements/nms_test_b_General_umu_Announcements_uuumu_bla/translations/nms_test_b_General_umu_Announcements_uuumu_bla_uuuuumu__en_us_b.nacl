@@ -1,0 +1,14 @@
+zendesk.section_translation nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu__en_us_b@uuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "bla"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "neta.marcus@salto.io"
+  created_by_id = "neta.marcus@salto.io"
+  brand = zendesk.brand.instance.nms_test@b
+  guide_translation = zendesk.guide_language_settings.instance.nms_test_b_en_us@umub
+  _parent = [
+    zendesk.section.instance.nms_test_b_General_umu_Announcements_uuumu_bla@uuuuumu,
+  ]
+}

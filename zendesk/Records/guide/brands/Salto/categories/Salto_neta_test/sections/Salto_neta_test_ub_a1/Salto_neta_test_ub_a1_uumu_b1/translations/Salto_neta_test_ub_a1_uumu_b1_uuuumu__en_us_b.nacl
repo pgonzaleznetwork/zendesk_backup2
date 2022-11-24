@@ -1,0 +1,14 @@
+zendesk.section_translation Salto_neta_test_ub_a1_uumu_b1_uuuumu__en_us_b@uuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "b1"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "neta.marcus@salto.io"
+  created_by_id = "neta.marcus@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.section.instance.Salto_neta_test_ub_a1_uumu_b1@uuuumu,
+  ]
+}

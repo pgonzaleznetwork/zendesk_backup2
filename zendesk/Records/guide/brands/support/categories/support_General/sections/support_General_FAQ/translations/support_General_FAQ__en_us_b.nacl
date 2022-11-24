@@ -1,0 +1,12 @@
+zendesk.section_translation support_General_FAQ__en_us_b@uuuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "FAQ"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.support
+  guide_translation = zendesk.guide_language_settings.instance.support_en_us@ub
+  _parent = [
+    zendesk.section.instance.support_General_FAQ,
+  ]
+}

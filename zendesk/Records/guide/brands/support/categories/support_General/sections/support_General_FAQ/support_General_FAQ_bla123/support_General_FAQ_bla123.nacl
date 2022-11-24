@@ -1,0 +1,15 @@
+zendesk.section support_General_FAQ_bla123 {
+  category_id = zendesk.category.instance.support_General
+  sorting = "manual"
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  parent_section_id = zendesk.section.instance.support_General_FAQ
+  theme_template = "section_page"
+  brand = zendesk.brand.instance.support
+  translations = [
+    zendesk.section_translation.instance.support_General_FAQ_bla123__en_us_b@uuuuuum,
+  ]
+  sections = zendesk.section_order.instance.support_General_FAQ_bla123__
+  articles = zendesk.article_order.instance.support_General_FAQ_bla123__
+}

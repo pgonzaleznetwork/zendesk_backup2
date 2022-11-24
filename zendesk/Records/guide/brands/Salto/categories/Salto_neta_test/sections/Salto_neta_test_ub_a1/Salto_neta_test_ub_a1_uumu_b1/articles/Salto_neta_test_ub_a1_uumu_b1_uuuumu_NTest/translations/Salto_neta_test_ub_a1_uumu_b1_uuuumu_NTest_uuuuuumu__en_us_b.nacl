@@ -1,0 +1,15 @@
+zendesk.article_translation Salto_neta_test_ub_a1_uumu_b1_uuuumu_NTest_uuuuuumu__en_us_b@uuuuuuuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "NTest"
+  body = "aaa"
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.article.instance.Salto_neta_test_ub_a1_uumu_b1_uuuumu_NTest@uuuuuumu,
+  ]
+}

@@ -1,0 +1,15 @@
+zendesk.article_translation Salto_General_FAQ_______uuu_01489_01491_01497_01511_01492__he@uuuuuuuumuuuuuuu {
+  locale = zendesk.guide_locale.instance.he
+  title = "בדיקה"
+  body = "<p>בודקים אותי</p>"
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_he
+  _parent = [
+    zendesk.article.instance.Salto_General_FAQ______@uuu_01489_01491_01497_01511_01492,
+  ]
+}

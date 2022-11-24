@@ -1,0 +1,16 @@
+zendesk.article anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_What_are_these_sections_and_articles_doing_here_@uuuuuuuumusssssssa {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ@uuuuuumu
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  translations = [
+    zendesk.article_translation.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_What_are_these_sections_and_articles_doing_here__uuuuuuuumusssssssa__en_us_b@uuuuuuuuuuuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

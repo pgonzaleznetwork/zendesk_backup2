@@ -1,0 +1,9 @@
+zendesk.section_order Salto_neta_test_ub_a1_uumu__@uuuumuu {
+  sections = [
+    zendesk.section.instance.Salto_neta_test_ub_a1_uumu_b1@uuuumu,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Salto_neta_test_ub_a1@uumu,
+  ]
+}

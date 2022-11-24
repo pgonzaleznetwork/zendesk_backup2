@@ -1,0 +1,16 @@
+zendesk.article BrandAForGuide_General_FAQ_How_do_I_publish_my_content_in_other_languages_@uuussssssssa {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.BrandAForGuide_General_FAQ
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.BrandAForGuide
+  translations = [
+    zendesk.article_translation.instance.BrandAForGuide_General_FAQ_How_do_I_publish_my_content_in_other_languages__uuussssssssa__en_us_b@uuuuuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

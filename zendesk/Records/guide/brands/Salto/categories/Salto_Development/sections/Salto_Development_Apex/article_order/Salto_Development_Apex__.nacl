@@ -1,0 +1,10 @@
+zendesk.article_order Salto_Development_Apex__ {
+  articles = [
+    zendesk.article.instance.Salto_Development_Apex_How_is_apex_different_to_Java_@uuusssssa,
+    zendesk.article.instance.Salto_Development_Apex_Avoid_SOQL_queries_in_for_loops@uuusssss,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Salto_Development_Apex,
+  ]
+}

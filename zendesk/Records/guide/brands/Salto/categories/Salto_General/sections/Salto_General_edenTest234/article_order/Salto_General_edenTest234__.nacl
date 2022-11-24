@@ -1,0 +1,6 @@
+zendesk.article_order Salto_General_edenTest234__ {
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Salto_General_edenTest234,
+  ]
+}

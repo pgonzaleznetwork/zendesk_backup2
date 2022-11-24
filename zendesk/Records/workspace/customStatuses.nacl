@@ -1,0 +1,43 @@
+zendesk.workspace customStatuses {
+  title = "customStatuses"
+  description = "customStatuses"
+  apps = [
+    {
+      id = zendesk.app_installation.instance.Time_Tracking_35111@su
+      expand = false
+      position = 4
+    },
+    {
+      id = zendesk.app_installation.instance.Knowledge_Capture_111872@su
+      expand = false
+      position = 5
+    },
+    {
+      id = zendesk.app_installation.instance.Weni_Platform_859074@su
+      expand = false
+      position = 6
+    },
+    {
+      id = zendesk.app_installation.instance.Helpful_App_861392@su
+      expand = false
+      position = 7
+    },
+  ]
+  activated = true
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is_not"
+        value = "new"
+      },
+    ]
+    any = [
+      {
+        field = "status"
+        operator = "less_than"
+        value = "solved"
+      },
+    ]
+  }
+}

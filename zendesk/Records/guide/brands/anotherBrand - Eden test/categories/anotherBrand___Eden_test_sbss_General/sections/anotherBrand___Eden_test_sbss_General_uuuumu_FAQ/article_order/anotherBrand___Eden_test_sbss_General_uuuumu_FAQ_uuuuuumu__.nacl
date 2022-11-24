@@ -1,0 +1,13 @@
+zendesk.article_order anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu__@uuuuuuuumuu {
+  articles = [
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_add_article@uuuuuuuumus,
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_How_can_agents_leverage_knowledge_to_help_customers_@uuuuuuuumusssssssa,
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_How_do_I_publish_my_content_in_other_languages_@uuuuuuuumussssssssa,
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_How_do_I_customize_my_Help_Center_@uuuuuuuumussssssa,
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_What_are_these_sections_and_articles_doing_here_@uuuuuuuumusssssssa,
+  ]
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  _parent = [
+    zendesk.section.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ@uuuuuumu,
+  ]
+}

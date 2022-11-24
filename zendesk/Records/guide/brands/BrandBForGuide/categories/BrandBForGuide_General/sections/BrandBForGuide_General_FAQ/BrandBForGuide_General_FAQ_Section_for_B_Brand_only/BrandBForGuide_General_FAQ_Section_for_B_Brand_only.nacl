@@ -1,0 +1,15 @@
+zendesk.section BrandBForGuide_General_FAQ_Section_for_B_Brand_only@uuussss {
+  category_id = zendesk.category.instance.BrandBForGuide_General
+  sorting = "manual"
+  locale = zendesk.guide_locale.instance.en_us@b
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  parent_section_id = zendesk.section.instance.BrandBForGuide_General_FAQ
+  theme_template = "section_page"
+  brand = zendesk.brand.instance.BrandBForGuide
+  translations = [
+    zendesk.section_translation.instance.BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss__en_us_b@uuuuuuumuuum,
+  ]
+  sections = zendesk.section_order.instance.BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss__@uuuuuuumuu
+  articles = zendesk.article_order.instance.BrandBForGuide_General_FAQ_Section_for_B_Brand_only_uuussss__@uuuuuuumuu
+}

@@ -1,0 +1,16 @@
+zendesk.article anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_How_can_agents_leverage_knowledge_to_help_customers_@uuuuuuuumusssssssa {
+  author_id = "gil.hoffer@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ@uuuuuumu
+  source_locale = zendesk.guide_locale.instance.en_us@b
+  locale = zendesk.guide_locale.instance.en_us@b
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  translations = [
+    zendesk.article_translation.instance.anotherBrand___Eden_test_sbss_General_uuuumu_FAQ_uuuuuumu_How_can_agents_leverage_knowledge_to_help_customers__uuuuuuuumusssssssa__en_us_b@uuuuuuuuuuuuuuuuuumuuum,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+}

@@ -1,0 +1,14 @@
+zendesk.article_translation anotherBrand___Eden_test_sbss_General_uuuumu_Announcements_uuuuuumu_Sample_article__Stellar_Skyonomy_refund_policies_uuuuuuuumusfssss__he@uuuuuuuuuuuuuuuumuu {
+  locale = zendesk.guide_locale.instance.he
+  title = "בדיקת תרגום"
+  outdated = false
+  draft = true
+  hidden = true
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.anotherBrand___Eden_test@sbss
+  guide_translation = zendesk.guide_language_settings.instance.anotherBrand___Eden_test_sbss_he@uuuumu
+  _parent = [
+    zendesk.article.instance.anotherBrand___Eden_test_sbss_General_uuuumu_Announcements_uuuuuumu_Sample_article__Stellar_Skyonomy_refund_policies@uuuuuuuumusfssss,
+  ]
+}

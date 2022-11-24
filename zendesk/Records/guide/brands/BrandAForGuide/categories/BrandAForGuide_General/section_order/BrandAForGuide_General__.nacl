@@ -1,0 +1,10 @@
+zendesk.section_order BrandAForGuide_General__ {
+  sections = [
+    zendesk.section.instance.BrandAForGuide_General_Announcements,
+    zendesk.section.instance.BrandAForGuide_General_FAQ,
+  ]
+  brand = zendesk.brand.instance.BrandAForGuide
+  _parent = [
+    zendesk.category.instance.BrandAForGuide_General,
+  ]
+}

@@ -1,0 +1,14 @@
+zendesk.category_translation Salto_test__eden_ubs__en_us_b@uuumuuum {
+  locale = zendesk.guide_locale.instance.en_us@b
+  title = "test- eden"
+  outdated = false
+  draft = false
+  hidden = false
+  updated_by_id = "zendesk-adapter@salto.io"
+  created_by_id = "zendesk-adapter@salto.io"
+  brand = zendesk.brand.instance.Salto
+  guide_translation = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  _parent = [
+    zendesk.category.instance.Salto_test__eden@ubs,
+  ]
+}

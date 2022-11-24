@@ -1,0 +1,10 @@
+zendesk.section_order nms_test_b_General_umu__@uuumuu {
+  sections = [
+    zendesk.section.instance.nms_test_b_General_umu_FAQ@uuumu,
+    zendesk.section.instance.nms_test_b_General_umu_Announcements@uuumu,
+  ]
+  brand = zendesk.brand.instance.nms_test@b
+  _parent = [
+    zendesk.category.instance.nms_test_b_General@umu,
+  ]
+}

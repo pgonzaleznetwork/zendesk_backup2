@@ -1,0 +1,4 @@
+zendesk.guide_locale en_us@b {
+  id = "en-us"
+  default = true
+}

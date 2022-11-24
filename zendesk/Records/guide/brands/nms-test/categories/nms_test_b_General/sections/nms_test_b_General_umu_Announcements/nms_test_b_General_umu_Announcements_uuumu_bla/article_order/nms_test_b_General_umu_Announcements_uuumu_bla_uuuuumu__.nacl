@@ -1,0 +1,9 @@
+zendesk.article_order nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu__@uuuuuuumuu {
+  articles = [
+    zendesk.article.instance.nms_test_b_General_umu_Announcements_uuumu_bla_uuuuumu_Welcome_to_your_Help_Center_@uuuuuuumussssl,
+  ]
+  brand = zendesk.brand.instance.nms_test@b
+  _parent = [
+    zendesk.section.instance.nms_test_b_General_umu_Announcements_uuumu_bla@uuuuumu,
+  ]
+}
